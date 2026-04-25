@@ -1,3 +1,5 @@
+#![no_std]
+
 use soroban_sdk::{
     contract, contractimpl, contracttype, Env, Address, Symbol, symbol_short, log,
 };
@@ -110,3 +112,4 @@ impl TaskEscrow {
         panic!("Conditions not met");
     }
 }
+
