@@ -1,3 +1,5 @@
+#![cfg(test)]
+
 use soroban_sdk::{Env, Address};
 use crate::TaskEscrow;
 
@@ -56,3 +58,4 @@ fn test_storage_state_after_deposit() {
 
     assert!(escrow.funded);
 }
+
