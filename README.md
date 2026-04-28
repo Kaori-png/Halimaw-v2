@@ -52,3 +52,7 @@ TaskEscrow introduces a simple, trustless workflow:
 
 - *Network: Stellar Testnet  
 - *Contract ID:CA43CQXEJMR2ZGUMTQRPGQEOHSV4ZQNEP7EH7HERRJKX7MAPHPZ3RY4V
+
+https://stellar.expert/explorer/testnet/tx/af1e80ef0144f7d72afee97a78c07882e3d605339f4e9f5a1abeda6ecfed83b5
+
+https://lab.stellar.org/smart-contracts/contract-explorer?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&smartContracts$explorer$contractId=CA43CQXEJMR2ZGUMTQRPGQEOHSV4ZQNEP7EH7HERRJKX7MAPHPZ3RY4V;;
