@@ -1,16 +1,11 @@
-[package]
-name = "task_escrow"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+resolver = "2"
+members = [
+  "contracts/*",
+]
 
-[lib]
-crate-type = ["cdylib", "rlib"]
-
-[dependencies]
-soroban-sdk = { version = "22.0.0", features = ["alloc"] }
-
-[dev-dependencies]
-soroban-sdk = { version = "22.0.0", features = ["testutils", "alloc"] }
+[workspace.dependencies]
+soroban-sdk = "25"
 
 [profile.release]
 opt-level = "z"
@@ -21,3 +16,8 @@ debug-assertions = false
 panic = "abort"
 codegen-units = 1
 lto = true
+
+# For more information about this profile see https://soroban.stellar.org/docs/basic-tutorials/logging#cargotoml-profile
+[profile.release-with-logs]
+inherits = "release"
+debug-assertions = true
