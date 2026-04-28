@@ -51,4 +51,4 @@ TaskEscrow introduces a simple, trustless workflow:
 ## 🔗 Deployed Smart Contract
 
 - *Network: Stellar Testnet  
-- *Contract ID:CAF3OBGNEDUDFRRZSDVAZJCVVRYGPLBWSO6MMEDYOYHCUDEODOIYVQNX
+- *Contract ID:CA43CQXEJMR2ZGUMTQRPGQEOHSV4ZQNEP7EH7HERRJKX7MAPHPZ3RY4V
